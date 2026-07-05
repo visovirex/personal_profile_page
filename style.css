@@ -48,3 +48,37 @@ main img{
     border: 6px solid white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
+
+/* Sections */
+section{
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+section:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,.12);
+}
+section h2{
+    color: #2563eb;
+    margin-bottom: 12px;
+    border-left: 5px solid #2563eb;
+    padding-left: 9px;
+}
+/* Skills */
+.skill ul{
+    list-style: none;
+}
+
+.skill li{
+    background: #e0ecff;
+    color: #1e40af;
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: 500;
+}
