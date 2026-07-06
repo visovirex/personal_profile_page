@@ -82,3 +82,53 @@ section h2{
     border-radius: 30px;
     font-weight: 500;
 }
+
+/* Contact */
+.contact address{
+    font-style: normal;
+    margin-bottom: 9px;
+}
+
+.contact a{
+    display: inline-block;
+    margin-top: 8px;
+    color: #2563eb;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact a:hover{
+    color: #1e40af;
+    text-decoration: underline;
+}
+/* Horizontal Line */
+hr{
+    width: 85%;
+    margin: 40px auto;
+    border: none;
+    height: 1px;
+    background: #d1d5db;
+}
+/* Footer */
+footer{
+    text-align: center;
+    padding: 30px 20px;
+    background: #1e293b;
+    color: white;
+}
+footer h2{
+    margin-bottom: 20px;
+}
+footer a{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #3b82f6;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+footer a:hover{
+    background: #3b82f6;
+}
